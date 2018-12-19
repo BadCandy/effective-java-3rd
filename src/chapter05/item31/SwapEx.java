@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 타입 매개변수가 1개일 경우 와일드 카드를 사용!
+ * (외부에서 보기에 더 명확하다.)
+ */
 public class SwapEx {
 
     public static void swap(List<?> list, int i, int j) {
